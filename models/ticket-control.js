@@ -55,7 +55,7 @@ class TicketControl {
         return 'Ticket ' + ticket.numero;
     }
 
-    atenderTicket ( esccritorio ) {
+    atenderTicket ( escritorio ) {
         // No tenemos tickets
 
         if ( this.tickets.length === 0 ) {
